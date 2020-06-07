@@ -110,7 +110,7 @@ form .field-group .field + .field {
 form button {
   width: 260px;
   height: 56px;
-  background-color: var(--primay-color);
+  background-color: var(--primary-color);
 
   border-radius: 8px;
   color: #fff;

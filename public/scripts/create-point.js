@@ -65,6 +65,8 @@ function handleSelectedItem(event) {
 
   const itemId = event.target.dataset.id
 
+  console.log('ITEM ID', itemId)
+
   const alreadySelected = selectedItems.findIndex(item => item == itemId)
 
   console.log(alreadySelected)
@@ -76,6 +78,8 @@ function handleSelectedItem(event) {
   } else {
     selectedItems.push(itemId)
   }
+
+  console.log('SELECTED ITEMS', selectedItems)
 
   collectedItems.value = selectedItems 
 }
